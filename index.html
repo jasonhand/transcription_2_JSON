@@ -312,7 +312,7 @@
             
             try {
                 // Create the JSON structure with a single 'question' field
-                const promptText = "Please provide a 200-word summary of the following transcription: ";
+                const promptText = "Please provide a 200-word summary, a list of key takeaways, a list of any resources mentioned, and chapter markers to use in Youtube. of the following transcription: IMPORTANT: The output should be in JSON.";
                 const data = {
                     question: promptText + transcript
                 };

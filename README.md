@@ -50,5 +50,9 @@ Example:
 - Core function: `convertToJSON()` builds the single-field JSON and writes it to the output area.
 - Copy behavior uses the native Clipboard API with a fallback for older browsers.
 
+## Recent changes
+- 2025-08-14: JSON output now uses a single field `question` that concatenates the fixed prompt and your transcript (previously used separate `question` and `transcript` fields).
+- 2025-08-14: Updated on-page tips to reflect the single-field output structure.
+
 ## License
 See `LICENSE` for details.
